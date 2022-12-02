@@ -1,0 +1,43 @@
+@use "sass:math";
+@import "_mixins.scss"; // Импорт миксинов
+// ===================== Подключение шрифта =====================
+// &display=swap - добавить при подключении через плагин
+@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+
+// ===================== НАСТРОЙКА =====================
+
+// Цвета
+$mainColor: #1a374d; // Цвет по умолчанию
+$blue: #406882;
+$lightBlue: #6998ab;
+$lightBlue2: #adcbd7;
+$lightBlue3: #479eef;
+*::selection {
+  background-color: $lightBlue2;
+  color: $blue;
+}
+
+// Шрифт
+$fontFamily: "Inter"; // Семейство шрифта по умолчанию
+$fontSize: 16; // Размер шрифта по умолчанию
+
+// Размеры контейнера
+$minWidth: 320; // Минимальная ширина сайта
+$maxWidth: 1230; // Ширина полотна макета
+$maxWidthContainer: 1200; // Максимальная ширина контейнера
+$containerPadding: 15; // Отсупы безопасности (если 15, то 15 справа и слева)
+
+$containerWidth: $maxWidthContainer + $containerPadding * 2; // Ширина срабатывания первого брейкпоинта
+
+// Брейк-поинты
+$pc: em($containerWidth); // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
+$tablet: em(991.98); // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: em(767.98); // Телефоны L
+$mobileSmall: em(479.98); // Телефоны S
+
+@import "_reset.scss"; // Подключение стилей обнуления
+
+@import "_common.scss"; // Подключение общих стилей
+
+@import "_burger.scss"; // Подключение бургер меню

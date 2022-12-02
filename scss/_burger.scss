@@ -1,0 +1,52 @@
+// burger menu <button class="header__menu"><span></span></button>
+.header__menu {
+  overflow: hidden;
+  display: none;
+  position: relative;
+  height: rem(28);
+  width: rem(28);
+  flex: 0 0 rem(28);
+
+  span,
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    background-color: $blue;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+  }
+  .dark & span,
+  .dark &::before,
+  .dark &::after {
+  }
+  span {
+    transform: translateY(-50%);
+    right: -10%;
+  }
+  &::before {
+    top: rem(5);
+  }
+  &::after {
+    bottom: rem(5);
+  }
+  .menu-open & {
+    span {
+      right: -100%;
+    }
+    &::before {
+      top: 50%;
+      transform: translateY(-50%) rotate(-45deg);
+    }
+    &::after {
+      bottom: 50%;
+      transform: translateY(50%) rotate(45deg);
+    }
+  }
+  @media (max-width: 767.98px) {
+    display: block;
+  }
+}

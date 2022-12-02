@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahiievych Nikita</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="" class="header__logo">K</a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a class="header__link" href="#home">Home</a></li>
+                    <li class="header__item"><a class="header__link" href="#about">About Me</a></li>
+                    <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
+                    <li class="header__item"><a class="header__link" href="#portfolio">Portfolio</a></li>
+                    <li class="header__item"><a class="header__link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- <input type="checkbox" id="theme__button" class="theme__button">                                  -->
+            <button class="header__menu"><span></span></button>
+        </div>
+    </header>
+    <section class="observe hero" id="home">
+        <div class="hero__container">
+            <div class="hero__info">
+                <h1 class="hero__title">
+                    <span>Hi, I'm Nikita</span>
+                    <div class="typed-text-container">
+                        <span class="typed-text" id="typed-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+                </h1>
+                <ul class="hero__socials">
+                    <li class="hero__social">
+                        <a href="https://github.com/Kvanzi" target="_blank">
+                            <svg width="32" height="32" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="hero__social_hover" fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0.75C6.14625 0.75 1 5.89625 1 12.25C1 17.3387 4.29187 21.6369 8.86312 23.1606C9.43812 23.2612 9.65375 22.9162 9.65375 22.6144C9.65375 22.3412 9.63938 21.4356 9.63938 20.4725C6.75 21.0044 6.0025 19.7681 5.7725 19.1212C5.64313 18.7906 5.0825 17.77 4.59375 17.4969C4.19125 17.2812 3.61625 16.7494 4.57938 16.735C5.485 16.7206 6.13187 17.5687 6.3475 17.9137C7.3825 19.6531 9.03563 19.1644 9.69688 18.8625C9.7975 18.115 10.0994 17.6119 10.43 17.3244C7.87125 17.0369 5.1975 16.045 5.1975 11.6462C5.1975 10.3956 5.64312 9.36062 6.37625 8.55562C6.26125 8.26812 5.85875 7.08937 6.49125 5.50812C6.49125 5.50812 7.45438 5.20625 9.65375 6.68687C10.5738 6.42812 11.5513 6.29875 12.5288 6.29875C13.5063 6.29875 14.4838 6.42812 15.4038 6.68687C17.6031 5.19188 18.5662 5.50812 18.5662 5.50812C19.1987 7.08937 18.7962 8.26812 18.6812 8.55562C19.4144 9.36062 19.86 10.3812 19.86 11.6462C19.86 16.0594 17.1719 17.0369 14.6131 17.3244C15.03 17.6837 15.3894 18.3737 15.3894 19.4519C15.3894 20.99 15.375 22.2262 15.375 22.6144C15.375 22.9162 15.5906 23.2756 16.1656 23.1606C20.7081 21.6369 24 17.3244 24 12.25C24 5.89625 18.8538 0.75 12.5 0.75V0.75Z" fill="#406882"/>
+                            </svg>                                    
+                        </a>
+                    </li>
+                    <li class="hero__social">
+                        <a href="https://t.me/Kvanzi" target="_blank">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="hero__social_hover" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32Z" fill="#406882"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2426 15.8309C11.9069 13.7988 15.0172 12.459 16.5734 11.8117C21.0168 9.96359 21.9401 9.64255 22.5419 9.63195C22.6743 9.62962 22.9702 9.66242 23.1619 9.81797C23.3238 9.94931 23.3683 10.1267 23.3896 10.2513C23.4109 10.3758 23.4375 10.6595 23.4164 10.8811C23.1756 13.4111 22.1337 19.5507 21.6036 22.3843C21.3794 23.5833 20.9377 23.9854 20.5102 24.0247C19.581 24.1102 18.8755 23.4107 17.9756 22.8207C16.5674 21.8976 15.7718 21.323 14.4049 20.4222C12.8252 19.3812 13.8493 18.8091 14.7495 17.874C14.9851 17.6293 19.079 13.9056 19.1582 13.5678C19.1681 13.5256 19.1773 13.3681 19.0838 13.285C18.9902 13.2018 18.8521 13.2303 18.7525 13.2529C18.6113 13.2849 16.3616 14.7718 12.0036 17.7136C11.3651 18.1521 10.7867 18.3658 10.2685 18.3546C9.69718 18.3422 8.59826 18.0315 7.78133 17.766C6.77933 17.4403 5.98296 17.2681 6.05231 16.7149C6.08842 16.4268 6.48519 16.1321 7.2426 15.8309Z" fill="white"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_10_77" x1="16" y1="0" x2="16" y2="31.7627" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#2AABEE"/>
+                                <stop offset="1" stop-color="#229ED9"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>                                                          
+                        </a>
+                    </li>
+                    <li class="hero__social">
+                        <a href="https://www.fiverr.com/kvanz1" target="_blank">
+                            <svg height="32" width="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400"><circle cx="200" cy="200" fill="rgb(64, 104, 130)" r="200" class="hero__social_hover"/><g fill="#fff"><path d="M364.4 162.7c0-6.6-5.2-12-11.8-12-6.4 0-11.7 5.3-11.7 12 0 6.6 5.2 12 11.7 12 6.6.1 11.8-5.3 11.8-12zm-11.8 8.7c-4.5 0-8-3.8-8-8.7 0-4.8 3.5-8.6 8-8.6 4.6 0 8.2 3.8 8.2 8.6 0 4.9-3.6 8.7-8.2 8.7z"/><path d="M355.8 163.7c.6-.2 1.9-1.1 1.9-3 0-2.3-1.5-3.7-4-3.7h-5.3v11.3h3.5v-3.8h.9l1.6 3.8h3.8l-2.1-3.9c-.2-.6-.3-.7-.3-.7zm-3-1.6h-.9v-2.7h.9c.8 0 1.2.4 1.2 1.3.1.9-.4 1.4-1.2 1.4z"/><circle cx="104.6" cy="163" r="9"/><path d="M114 177.9H72.8v-2.7c0-5.3 5.3-5.4 8-5.4 3.1 0 4.5.3 4.5.3v-14.6s-2.8-.4-6.6-.4c-8.6 0-24.5 2.4-24.5 20.6v2.3h-7.5v13.5h7.5V220h-7v13.5H81V220h-8.2v-28.5h22.5V220h-7v13.5H121V220h-7zm70 0h-29.5v13.5h5l-6.4 20c-1.2 3.3-1.5 7.3-1.5 7.3h-.4s-.3-4-1.5-7.3l-6.4-20h5v-13.5h-29.5v13.5h6.2l15.4 42h22l15.4-42h6.2zm54.6 25.5c0-15.4-9.3-26.8-25.8-26.8-17.9 0-28.9 12.7-28.9 29 0 14.8 10.7 29.1 30.5 29.1 15 0 23.9-7.8 23.9-7.8l-6.8-12.9s-7.4 5.3-15.6 5.3c-5.9 0-11.5-3.1-12.9-10.2h35.2c-.1-.1.4-3.9.4-5.7zm-35.2-4.6c1-4.3 3.6-8.2 8.9-8.2 4.1 0 7 3.8 7 8.2zm114.1-8.1h-.2s.2-1.1.2-2.8V185c0-5.1-2.8-7.1-7.9-7.1h-17.5v13.5h5.2c1.5 0 2.4.9 2.4 2.4V220h-7.5v13.5h33.7V220h-7.5v-8.1c0-10.1 5-16.7 15.3-16.7 2.3 0 3.8.3 3.8.3v-18.3s-1.1-.2-2.2-.2c-8.4-.1-15.4 6.1-17.8 13.7zm-49.3 0h-.2s.2-1.1.2-2.8V185c0-5.1-2.8-7.1-7.9-7.1h-17.5v13.5h5.2c1.5 0 2.4.9 2.4 2.4V220h-7.5v13.5h33.7V220h-7.5v-8.1c0-10.1 5-16.7 15.3-16.7 2.3 0 3.8.3 3.8.3v-18.3s-1.1-.2-2.2-.2c-8.5-.1-15.5 6.1-17.8 13.7z"/></g></svg>                                                     
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero__terminal">
+                <span class="collapse__button"></span>
+                <div class="hero-terminal__output">
+                    <p style="margin-bottom: 0.5rem;">Type "commands" into the terminal window and hit enter to see all commands</p>
+                    <p style="line-height: 1rem;"><span style="color: #52d42c">AhiievychNikita@DESKTOP</span> <span style="color: #c748ff">MINGW64</span> <span style="color: #ffb100">~/documents/portfolio</span></p>
+                </div>
+                <div class="hero-terminal__form">
+                    <input type="text" value="" class="hero-terminal__input" autofocus>
+                    <div class="hero-terminal__icon">></div>
+                </div>
+            </div>
+            <button class="hero__button">
+                <img src="img/icons/arrow-down.svg" alt="">
+            </button>
+        </div>
+    </section>
+    <section class="observe about" id="about">
+        <div class="about__container">
+            <h2 class="about__title">A little about <span>me</span></h2>
+            <div class="about__subtitle">
+                <p>My name is Nikita. I am a self-taught web developer working in Ukraine and I love developing websites.</p>
+                <p>At the moment I have a small portfolio and excellent skills in website development. I am currently learning React.</p>
+            </div>
+        </div>
+    </section>
+    <section class="observe skills" id="skills">
+        <div class="skills__container">
+            <h2 class="skills__title"><span>Technologies</span> and <span>Tools</span></h2>
+            <div class="skills__items">
+                <div class="skills__item">
+                    <div class="skills-item__img"><img src="img/icons/html5.svg" alt="html5"></div>
+                    <h4 class="skills-item__title">HTML</h4>
+                </div>
+                <div class="skills__item">
+                    <div class="skills-item__img"><img src="img/icons/css3.svg" alt="html5"></div>
+                    <h4 class="skills-item__title">CSS3</h4>
+                </div>
+                <div class="skills__item">
+                    <div class="skills-item__img"><img src="img/icons/sass.svg" alt="html5"></div>
+                    <h4 class="skills-item__title">Sass</h4>
+                </div>
+                <div class="skills__item">
+                    <div class="skills-item__img"><img src="img/icons/git.svg" alt="html5"></div>
+                    <h4 class="skills-item__title">Git</h4>
+                </div>
+                <div class="skills__item">
+                    <div class="skills-item__img"><img src="img/icons/chrome.svg" alt="html5"></div>
+                    <h4 class="skills-item__title">Chrome Dev Tools</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="observe portfolio" id="portfolio">
+        <div class="portfolio__container">
+            <h2 class="portfolio__title"></h2>
+            <div class="swiper portfolio__slider">
+                <div class="swiper-wrapper portfolio__wrapper">
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination portfolio__pagination"></div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev portfolio__button-prev"></div>
+            <div class="swiper-button-next portfolio__button-next"></div>
+        </div>
+    </section>
+    <section class="observe contact" id="contact">
+        <div class="contact__container">
+            <h2 class="contact__title">Contact With <span>Me</span></h2>
+            <div class="contact__subtitle">You can contact me by following the links below.</div>
+            <div class="contact__items">
+                <a href="https://github.com/Kvanzi" target="_blank" class="contact__item">
+                    <div class="contact__img"><img src="img/icons/telegram.svg" alt="telegram"></div>
+                    <p class="contact__name">Telegram</p>
+                </a>
+                <a href="https://t.me/Kvanzi" target="_blank" class="contact__item">
+                    <div class="contact__img"><img src="img/icons/github.svg" alt="github"></div>
+                    <p class="contact__name">Github</p>
+                </a>
+                <a href="https://www.fiverr.com/kvanz1" target="_blank" class="contact__item">
+                    <div class="contact__img"><img src="img/icons/fiverr.svg" alt="fiverr"></div>
+                    <p class="contact__name">Fiverr</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__copy">Copyright © 2022. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/terminal.js"></script>
+    <script src="js/gitAPI.js"></script>
+</body>
+</html>
