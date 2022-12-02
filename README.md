@@ -12,5 +12,7 @@ Fully responsive my website-portfolio with animations and swiper slider with Res
 ## Contact
 
 Discord: Kvanzi#9045
+
 Telegram: https://t.me/Kvanzi
+
 Fiverr: https://www.fiverr.com/kvanz1
