@@ -26,7 +26,7 @@ const repositories = {
       .then((resp) => resp.json())
       .then((data) => {
         return data.map((repo) => {
-          if (repo.name != "Kvanzi" && repo.name != "calculator" && repo.name != "changeTheme") {
+          if (repo.name != "Kvanzi" && repo.name != "calculator" && repo.name != "changeTheme" && repo.name != "AhiievychNikitaPortfolio") {
             document.querySelector(".portfolio__wrapper").insertAdjacentHTML(
               "beforeend",
               `
