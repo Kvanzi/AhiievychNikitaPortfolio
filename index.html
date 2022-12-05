@@ -10,6 +10,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
+    <div id="page-preloader" class="preloader">
+        <div class="page-loader">
+            <img src="img/preloader.svg" alt="preloader">
+            <span id="page__percent">0%</span>
+        </div>
+    </div>
     <header class="header">
         <div class="header__container">
             <a href="" class="header__logo">K</a>
@@ -158,8 +164,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/terminal.js"></script>
     <script src="js/gitAPI.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
